@@ -38,6 +38,7 @@ public class exerciseCh4 extends ConsoleProgram {
 			println("With a knick-knack, paddy-whack,");
 			println("Give your dog a bone.");
 			println("This old man came rolling home.");
+			println();
 				
 		}
 	}
