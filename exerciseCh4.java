@@ -49,8 +49,9 @@ public class exerciseCh4 extends ConsoleProgram {
 		int sum = -1;
 		for (int i=1; i <= nrOfIntegers; i++) {
 			sum = sum + 2;
-			println(sum);
+
 		}
+		println(sum);
 	}
 	
 
