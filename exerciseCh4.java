@@ -53,7 +53,7 @@ public class exerciseCh4 extends ConsoleProgram {
 			sum = sum + oddNumbers;
 			
 		}
-		println(sum);
+		println("The sum of " + oddNumbers + "is= " + sum);
 	}
 	
 
