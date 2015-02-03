@@ -46,10 +46,12 @@ public class exerciseCh4 extends ConsoleProgram {
 	// Display the sum of x odd integers
 	private void exerciseThree () {
 		int nrOfIntegers = readInt("Enter number of integers: ");
-		int sum = -1;
+		int oddNumbers = -1;
+		int sum = 0;
 		for (int i=1; i <= nrOfIntegers; i++) {
-			sum = sum + 2;
-
+			oddNumbers = oddNumbers + 2;
+			sum = sum + oddNumbers;
+			
 		}
 		println(sum);
 	}
