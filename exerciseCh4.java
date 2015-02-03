@@ -3,7 +3,7 @@ import acm.program.ConsoleProgram;
  
 public class exerciseCh4 extends ConsoleProgram {
 	public void run () {
-		exerciseOne();
+		exerciseTwo();
 	}
 
 	// We output the song 99 beers on the wall
