@@ -3,7 +3,7 @@ import acm.program.ConsoleProgram;
  
 public class exerciseCh4 extends ConsoleProgram {
 	public void run () {
-		for (int i = 10 ; i > 0; i--) {
+		for (int i = 99 ; i > 0; i--) {
 			println (i + " bottles of beer on the wall.");
 			println (i + " bottles of beer.");
 			println ("You take one down, pass it around.");
