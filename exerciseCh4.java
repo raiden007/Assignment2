@@ -2,8 +2,11 @@
 import acm.program.ConsoleProgram;
  
 public class exerciseCh4 extends ConsoleProgram {
+	
+	private static final int SENTINEL = -1;
+	
 	public void run () {
-		exerciseFour();
+		exerciseSix();
 	}
 
 	/* As a way to pass the time on long bus trips, young people growing up in the United States have been known to sing the following rather repetitive song:
@@ -86,10 +89,29 @@ public class exerciseCh4 extends ConsoleProgram {
 	 //Repeat exercise 4, but this time have your program display only those numbers that are divisible by 6 or 7 but not both.
 	 private void exerciseFive () {
 		 for (int i=1; i <= 100; i++) {
+			 // If the number is divisibile by 6 or 7 BUT they are not divisibile by 6 and 7.
 			 if (((i%6 == 0) || (i%7 == 0)) != ((i%6==0) && (i%7==0))) {
 				 println(i);
 			 }
 		 }
 	 }
+	 // Amazingly it works :)
 
+	 /* Using the AddIntegerList program from Figure 4-5 as a model, write a program called AverageList that reads in a list of integers representing exam scores and then prints out the average. 
+	  * Because some unfortunate student might actually get a score of 0, your program should use Ð1 as the sentinel to mark the end of the input.
+	  */
+	 
+	 private void exerciseSix () {
+		 println("This program adds a list of integers.");
+		 println("Enter values, one per line, using "+ SENTINEL);
+		 println("to signal the end of the list.");
+		 int total = 0;
+		 while (true) {
+			 int value = readInt(" ? ");
+			 if (value == SENTINEL) break;
+			 total += value;
+		 }
+		 println("The total is "+ total + ".");
+		 
+	 }
 }
