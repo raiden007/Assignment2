@@ -47,7 +47,8 @@ public class exerciseCh4 extends ConsoleProgram {
 	private void exerciseThree () {
 		int nrOfIntegers = readInt("Enter number of integers: ");
 		for (int i=1; i <= nrOfIntegers; i++) {
-			int sum = i + 2;
+			int sum = 1;
+			sum = sum + 2;
 			
 			println(sum);
 		}
