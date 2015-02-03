@@ -102,16 +102,20 @@ public class exerciseCh4 extends ConsoleProgram {
 	  */
 	 
 	 private void exerciseSix () {
-		 println("This program adds a list of integers.");
+		 println("This program prints the average of grades.");
 		 println("Enter values, one per line, using "+ SENTINEL);
 		 println("to signal the end of the list.");
 		 int total = 0;
+		 int nrOfGrades = 0;
+		 int average = 0;
 		 while (true) {
 			 int value = readInt(" ? ");
 			 if (value == SENTINEL) break;
 			 total += value;
+			 nrOfGrades++;
+			 average = total / nrOfGrades;
 		 }
-		 println("The total is "+ total + ".");
+		 println("The average is "+ average + ".");
 		 
 	 }
 }
