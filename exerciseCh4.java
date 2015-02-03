@@ -118,4 +118,18 @@ public class exerciseCh4 extends ConsoleProgram {
 		 println("The average is "+ average + ".");
 		 
 	 }
+	 
+	 /*Rewrite the DigitSum program given in Figure 4-6 so that instead of adding the digits in the number, 
+	  * it generates the number that has the same digits in the reverse order, as illustrated by this sample run:
+	  */
+	 private void exerciseSeven () {
+		      println("This program sums the digits in an integer.");
+		      int n = readInt("Enter a positive integer: ");
+		      int dsum = 0;
+		      while (n > 0) {
+		    	  dsum += n % 10;
+		    	  n /= 10; }
+		      println("The sum of the digits is " + dsum);
+		   
+	 }
 }
