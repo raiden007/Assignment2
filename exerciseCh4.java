@@ -23,7 +23,7 @@ public class exerciseCh4 extends ConsoleProgram {
 		String word;
 		for (int i = 1 ; i <= 10 ; i++) {
 			if (i==1) word = "thumb";
-			println (i);
+			println (word);
 				
 		}
 	}
