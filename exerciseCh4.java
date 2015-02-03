@@ -3,7 +3,7 @@ import acm.program.ConsoleProgram;
  
 public class exerciseCh4 extends ConsoleProgram {
 	public void run () {
-		exerciseTwo();
+		exerciseThree();
 	}
 
 	// We output the song 99 beers on the wall
@@ -40,6 +40,14 @@ public class exerciseCh4 extends ConsoleProgram {
 			println("This old man came rolling home.");
 			println();
 				
+		}
+	}
+	
+	// Display the sum of x odd integers
+	private void exerciseThree () {
+		int nrOfIntegers = readInt("Enter number of integers: ");
+		for (int i=1; i <= nrOfIntegers; i++) {
+			println(i);
 		}
 	}
 	
