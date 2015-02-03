@@ -3,7 +3,7 @@ import acm.program.ConsoleProgram;
  
 public class exerciseCh4 extends ConsoleProgram {
 	public void run () {
-		exerciseFive();
+		exerciseFour();
 	}
 
 	/* As a way to pass the time on long bus trips, young people growing up in the United States have been known to sing the following rather repetitive song:
