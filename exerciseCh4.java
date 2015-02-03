@@ -20,8 +20,9 @@ public class exerciseCh4 extends ConsoleProgram {
 	
 	// We change the word on the second line
 	private void exerciseTwo () {
-		String word;
+	//	String word;
 		for (int i = 1 ; i <= 10 ; i++) {
+			String word = null;
 			if (i==1) word = "thumb";
 			println (word);
 				
