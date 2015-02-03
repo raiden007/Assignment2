@@ -3,7 +3,7 @@ import acm.program.ConsoleProgram;
  
 public class exerciseCh4 extends ConsoleProgram {
 	public void run () {
-		exerciseFour();
+		exerciseFive();
 	}
 
 	/* As a way to pass the time on long bus trips, young people growing up in the United States have been known to sing the following rather repetitive song:
@@ -78,6 +78,15 @@ public class exerciseCh4 extends ConsoleProgram {
 	 private void exerciseFour () {
 		 for (int i=1; i <= 100; i++) {
 			 if ((i%6 == 0) || (i%7 == 0)) {
+				 println(i);
+			 }
+		 }
+	 }
+	 
+	 //Repeat exercise 4, but this time have your program display only those numbers that are divisible by 6 or 7 but not both.
+	 private void exerciseFive () {
+		 for (int i=1; i <= 100; i++) {
+			 if (((i%6 == 0) || (i%7 == 0)) != ((i%6==0) && (i%7==0))) {
 				 println(i);
 			 }
 		 }
