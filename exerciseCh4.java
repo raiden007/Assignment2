@@ -24,7 +24,20 @@ public class exerciseCh4 extends ConsoleProgram {
 		for (int i = 1 ; i <= 10 ; i++) {
 			String word = null;
 			if (i==1) word = "thumb";
-			println (word);
+			if (i==2) word = "shoe";
+			if (i==3) word = "knee";
+			if (i==4) word = "door";
+			if (i==5) word = "hive";
+			if (i==6) word = "sticks";
+			if (i==7) word = "up to heaven";
+			if (i==8) word = "pate";
+			if (i==9) word = "spine";
+			if (i==10) word = "shin";
+			println("The old man, he played 1.");
+			println("He played knick-knack on my " + word + ".");
+			println("With a knick-knack, paddy-whack,");
+			println("Give your dog a bone.");
+			println("This old man came rolling home.");
 				
 		}
 	}
