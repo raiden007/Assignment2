@@ -128,8 +128,8 @@ public class exerciseCh4 extends ConsoleProgram {
 	        print("The reverse of the digits is ");
 	        while (n > 0) {
 	            int nReversed = 0;
-	            nReversed += n % 10;
-	            n /=10;
+	            nReversed = nReversed + (n % 10);
+	            n = n + (n/10);
 	            print (nReversed);
 	        }
 		   
