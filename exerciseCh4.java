@@ -7,7 +7,7 @@ public class exerciseCh4 extends ConsoleProgram {
 	private static final int START = 10;
 	
 	public void run () {
-		exerciseNine();
+		exerciseTen();
 	}
 
 	/* As a way to pass the time on long bus trips, young people growing up in the United States have been known to sing the following rather repetitive song:
@@ -159,6 +159,24 @@ public class exerciseCh4 extends ConsoleProgram {
 		  println (firstNum);
 		  println(secondNum);
 		  for (int i=0; i<13; i++) {
+			  total = firstNum + secondNum;
+			  println(total);
+			  firstNum = secondNum;
+			  secondNum = total;
+		  }
+	  }
+	  
+	  /* Modify the program in the preceding exercise so that instead of specifying the index of 
+	   * the final term, the program displays those terms in the Fibonacci sequence that are less than 10,000
+	   */
+	  
+	  private void exerciseTen() {
+		  int firstNum = 0;
+		  int secondNum = 1;
+		  int total;
+		  println (firstNum);
+		  println(secondNum);
+		  while (total < 10000) {
 			  total = firstNum + secondNum;
 			  println(total);
 			  firstNum = secondNum;
