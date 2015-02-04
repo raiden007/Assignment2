@@ -4,9 +4,10 @@ import acm.program.ConsoleProgram;
 public class exerciseCh4 extends ConsoleProgram {
 	
 	private static final int SENTINEL = -1;
+	private static final int START = 10;
 	
 	public void run () {
-		exerciseSeven();
+		exerciseEight();
 	}
 
 	/* As a way to pass the time on long bus trips, young people growing up in the United States have been known to sing the following rather repetitive song:
@@ -134,4 +135,18 @@ public class exerciseCh4 extends ConsoleProgram {
 	        }
 		   
 	 }
+	 // Am luat de pe net raspunsul la asta ca nu stiam cum sa-l fac. M-am uitat si am inteles pana
+	 // la urma cum se face.
+	 
+	 // Rewrite the Countdown program given in Figure 4-8 so that it uses a while loop instead of a for loop
+	  private void exerciseEight() {
+		  int t = START;
+		  while (t<=0) {
+			  println(t);
+			  t--;
+		  }
+		  println("Liftoff!");  
+	  }
+	  
+	  
 }
