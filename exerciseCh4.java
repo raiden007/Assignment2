@@ -7,7 +7,7 @@ public class exerciseCh4 extends ConsoleProgram {
 	private static final int START = 10;
 	
 	public void run () {
-		exerciseEight();
+		exerciseNine();
 	}
 
 	/* As a way to pass the time on long bus trips, young people growing up in the United States have been known to sing the following rather repetitive song:
@@ -148,5 +148,22 @@ public class exerciseCh4 extends ConsoleProgram {
 		  println("Liftoff!");  
 	  }
 	  
+	  /* In mathematics, there is a famous sequence of numbers called the Fibonacci sequence after the thirteenth-century Italian mathematician Leonardo Fibonacci. The first two terms in this sequence are 0 and 1, and every subsequent term is the sum of the preceding two. Thus the first several numbers in the Fibonacci sequence are as follows:
+	*Write a program to display the values in this sequence from F0 through F15.
+	*/
+	  
+	  private void exerciseNine() {
+		  int firstNum = 0;
+		  int secondNum = 1;
+		  int total;
+		  println (firstNum);
+		  println(secondNum);
+		  for (int i=0; i<13; i++) {
+			  total = firstNum + secondNum;
+			  println(total);
+			  firstNum = secondNum;
+			  secondNum = total;
+		  }
+	  }
 	  
 }
