@@ -141,7 +141,7 @@ public class exerciseCh4 extends ConsoleProgram {
 	 // Rewrite the Countdown program given in Figure 4-8 so that it uses a while loop instead of a for loop
 	  private void exerciseEight() {
 		  int t = START;
-		  while (t<=0) {
+		  while (t => 0) {
 			  println(t);
 			  t--;
 		  }
