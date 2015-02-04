@@ -129,7 +129,7 @@ public class exerciseCh4 extends ConsoleProgram {
 	        while (n > 0) {
 	            int nReversed = 0;
 	            nReversed = nReversed + (n % 10);
-	            n /=10;
+	            n = n/10;
 	            print (nReversed);
 	        }
 		   
