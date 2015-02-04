@@ -173,12 +173,12 @@ public class exerciseCh4 extends ConsoleProgram {
 	  private void exerciseTen() {
 		  int firstNum = 0;
 		  int secondNum = 1;
-		  int total = 0;
+		  int total = firstNum + secondNum;
 		  println (firstNum);
 		  println(secondNum);
 		  while (total < 10000) {
-			  total = firstNum + secondNum;
 			  println(total);
+			  total = firstNum + secondNum;
 			  firstNum = secondNum;
 			  secondNum = total;
 		  }
