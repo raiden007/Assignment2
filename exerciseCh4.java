@@ -6,7 +6,7 @@ public class exerciseCh4 extends ConsoleProgram {
 	private static final int SENTINEL = -1;
 	
 	public void run () {
-		exerciseSix();
+		exerciseSeven();
 	}
 
 	/* As a way to pass the time on long bus trips, young people growing up in the United States have been known to sing the following rather repetitive song:
@@ -123,13 +123,15 @@ public class exerciseCh4 extends ConsoleProgram {
 	  * it generates the number that has the same digits in the reverse order, as illustrated by this sample run:
 	  */
 	 private void exerciseSeven () {
-		      println("This program sums the digits in an integer.");
-		      int n = readInt("Enter a positive integer: ");
-		      int dsum = 0;
-		      while (n > 0) {
-		    	  dsum += n % 10;
-		    	  n /= 10; }
-		      println("The sum of the digits is " + dsum);
+	        println ("This program reverses the digits in an integer.");
+	        int n = readInt ("Enter a positive integer: ");
+	        print("The reverse of the digits is ");
+	        while (n > 0) {
+	            int nReversed = 0;
+	            nReversed += n % 10;
+	            n /=10;
+	            print (nReversed);
+	        }
 		   
 	 }
 }
