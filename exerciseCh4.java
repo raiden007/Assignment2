@@ -184,4 +184,11 @@ public class exerciseCh4 extends ConsoleProgram {
 		  }
 	  }
 	  
+	  /* Write a GraphicsProgram that uses two nested for loops to create the following checkerboard diagram in the upper left corner of the canvas
+	   * The individual squares are all instances of the class GRect introduced in Chapter 2. Alternate squares both horizontally and vertically contain a somewhat smaller GOval to create the checkerboard effect.
+	   */
+	  private void exerciseEleven() {
+		  
+	  }
+	  
 }
