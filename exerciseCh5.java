@@ -86,7 +86,7 @@ public class exerciseCh5 extends ConsoleProgram {
 			result=1/k;
 		} else {
 			for (int i=0;i<k;i++) {
-				result = result * x;
+				result = (int) result * x;
 			}
 		}
 		return result;
