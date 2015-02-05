@@ -82,9 +82,9 @@ public class exerciseCh5 extends ConsoleProgram {
 	
 	private double raiseRealToPower (double x, int k) {
 		double result=1;
+		int fraction = 1;
 		if (k<0) {
 			for (int i=0;i>k;i--) {
-				double fraction = 1;
 				fraction = (int) fraction * x;
 				println("fraction:"+fraction);
 				result = 1 / fraction;
