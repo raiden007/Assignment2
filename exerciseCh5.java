@@ -94,6 +94,7 @@ public class exerciseCh5 extends ConsoleProgram {
 		} else {
 			for (int i=0;i<k;i++) {
 				result = (int) result * x;
+				println(result);
 			}
 		}
 		return result;
