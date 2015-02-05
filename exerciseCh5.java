@@ -45,10 +45,10 @@ public class exerciseCh5 extends ConsoleProgram {
 		  println(secondNum);
 		  for (int i=0; i<number-2; i++) {
 			  total = firstNum + secondNum;
-			  println(total);
 			  firstNum = secondNum;
 			  secondNum = total;
 		  }
+		  println(total);
 		  return total;
 	}
 
