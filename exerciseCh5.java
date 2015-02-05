@@ -2,8 +2,9 @@ import acm.program.ConsoleProgram;
  
 public class exerciseCh5 extends ConsoleProgram {
 	public void run () {
-		exerciseOne();
-		exerciseTwo();
+//		exerciseOne();
+//		exerciseTwo();
+		exerciseThree();
 	}
 	
 	
@@ -29,4 +30,26 @@ public class exerciseCh5 extends ConsoleProgram {
 			println ("The equation has no real solutions.");
 		}
 	}
+	
+	private void exerciseThree() {
+		int n = readInt ("Enter nr: ");
+		fibonacci(n);
+		
+	}
+	
+	private int fibonacci(int number) {
+		  int firstNum = 0;
+		  int secondNum = 1;
+		  int total = 0;
+		  println (firstNum);
+		  println(secondNum);
+		  for (int i=0; i<number; i++) {
+			  total = firstNum + secondNum;
+			  println(total);
+			  firstNum = secondNum;
+			  secondNum = total;
+		  }
+		  return total;
+	}
+
 }
