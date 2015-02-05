@@ -86,7 +86,9 @@ public class exerciseCh5 extends ConsoleProgram {
 			for (int i=0;i>k;i--) {
 				double fraction = 1;
 				fraction = (fraction*x);
+				println(fraction);
 				result = 1 / fraction;
+				println(result);
 			}
 			
 		} else {
