@@ -88,7 +88,7 @@ public class exerciseCh5 extends ConsoleProgram {
 				fraction = (int) fraction * x;
 				println("fraction:"+fraction);
 				result = 1 / fraction;
-			//	println("result:"+result);
+				println("result:"+result);
 			}
 			
 		} else {
