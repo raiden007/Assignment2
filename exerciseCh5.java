@@ -5,7 +5,8 @@ public class exerciseCh5 extends ConsoleProgram {
 //		exerciseOne();
 //		exerciseTwo();
 //		exerciseThree();
-		exerciseFour();
+//		exerciseFour();
+		exerciseFive();
 	}
 	
 	
@@ -57,10 +58,9 @@ public class exerciseCh5 extends ConsoleProgram {
 		println("This program calculates n at power k.");
 		int n = readInt("Enter n: ");
 		int k = readInt("Enter k: ");
-		raiseIntToPower(n,k);
 		println("N at power K is: "+raiseIntToPower(n,k));
 		println("The table of 2 at power K is: ");
-		for (int i=0;i<=10;i++) {
+		for (int i=0;i<10;i++) {
 			println(raiseIntToPower(2,i));
 		}
 	}
@@ -69,6 +69,25 @@ public class exerciseCh5 extends ConsoleProgram {
 		int result = 1;
 		for (int i=0;i<k;i++) {
 			result = result*n;
+		}
+		return result;
+	}
+	
+	private void exerciseFive() {
+		println("This program returns X at power K.");
+		double x = readDouble("Enter x: ");
+		int k = readInt("Enter k: ");
+		println ("The result is: "+raiseRealToPower(x,k));
+	}
+	
+	private double raiseRealToPower (double x, int k) {
+		double result = 1;
+		if (k<0) {
+			result=1/k;
+		} else {
+			for (int i=0;i<k;i++) {
+				result = result * x;
+			}
 		}
 		return result;
 	}
