@@ -59,6 +59,10 @@ public class exerciseCh5 extends ConsoleProgram {
 		int k = readInt("Enter k: ");
 		raiseIntToPower(n,k);
 		println("N at power K is: "+raiseIntToPower(n,k));
+		println("The table of 2 at power K is: ");
+		for (int i=0;i<10;i++) {
+			println(raiseIntToPower(2,i));
+		}
 	}
 	
 	private int raiseIntToPower(int n, int k) {
@@ -66,7 +70,6 @@ public class exerciseCh5 extends ConsoleProgram {
 		for (int i=0;i<k;i++) {
 			result = result*n;
 		}
-		
 		return result;
 	}
 
