@@ -79,7 +79,7 @@ public class exerciseCh5 extends ConsoleProgram {
 		int k = readInt("Enter k: ");
 		println ("The result is: "+raiseRealToPower(x,k));
 		for (int k1=-4;k1<5;k1++) {
-			println ("Pi at power " +k1 + "is: " + raiseRealToPower(3.14,k1));
+			println ("Pi at power " +k1 + " is: " + raiseRealToPower(3.14,k1));
 		}
 
 	}
