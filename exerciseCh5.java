@@ -58,7 +58,7 @@ public class exerciseCh5 extends ConsoleProgram {
 		int n = readInt("Enter n: ");
 		int k = readInt("Enter k: ");
 		raiseIntToPower(n,k);
-		println(raiseIntToPower(n,k));
+		println("N at power K is: "+raiseIntToPower(n,k));
 	}
 	
 	private int raiseIntToPower(int n, int k) {
