@@ -58,6 +58,7 @@ public class exerciseCh5 extends ConsoleProgram {
 		int n = readInt("Enter n: ");
 		int k = readInt("Enter k: ");
 		raiseIntToPower(n,k);
+		println(raiseIntToPower(n,k));
 	}
 	
 	private int raiseIntToPower(int n, int k) {
@@ -65,6 +66,7 @@ public class exerciseCh5 extends ConsoleProgram {
 		for (int i=0;i<k;i++) {
 			result = result*n;
 		}
+		
 		return result;
 	}
 
