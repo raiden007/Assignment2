@@ -78,6 +78,7 @@ public class exerciseCh5 extends ConsoleProgram {
 		double x = readDouble("Enter x: ");
 		int k = readInt("Enter k: ");
 		println ("The result is: "+raiseRealToPower(x,k));
+		println ("Pi at power K: "+raiseRealToPower(3.14,-4));
 	}
 	
 	private double raiseRealToPower (double x, int k) {
@@ -94,7 +95,7 @@ public class exerciseCh5 extends ConsoleProgram {
 		} else {
 			for (int i=0;i<k;i++) {
 				result = (int) result * x;
-				println(result);
+//				println(result);
 			}
 		}
 		return result;
