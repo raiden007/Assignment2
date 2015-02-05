@@ -81,7 +81,7 @@ public class exerciseCh5 extends ConsoleProgram {
 	}
 	
 	private double raiseRealToPower (double x, int k) {
-		double result = 1;
+		double result;
 		if (k<0) {
 			for (int i=0;i<k;i++) {
 				result= 1/(result*x);			
