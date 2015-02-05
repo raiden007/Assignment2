@@ -60,7 +60,7 @@ public class exerciseCh5 extends ConsoleProgram {
 		raiseIntToPower(n,k);
 		println("N at power K is: "+raiseIntToPower(n,k));
 		println("The table of 2 at power K is: ");
-		for (int i=0;i<10;i++) {
+		for (int i=0;i<=10;i++) {
 			println(raiseIntToPower(2,i));
 		}
 	}
