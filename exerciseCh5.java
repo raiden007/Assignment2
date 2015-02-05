@@ -43,7 +43,7 @@ public class exerciseCh5 extends ConsoleProgram {
 		  int total = 0;
 		  println (firstNum);
 		  println(secondNum);
-		  for (int i=0; i<number; i++) {
+		  for (int i=0; i<number-2; i++) {
 			  total = firstNum + secondNum;
 			  println(total);
 			  firstNum = secondNum;
