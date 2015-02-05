@@ -41,8 +41,8 @@ public class exerciseCh5 extends ConsoleProgram {
 		  int firstNum = 0;
 		  int secondNum = 1;
 		  int total = 0;
-		  println (firstNum);
-		  println(secondNum);
+//		  println (firstNum);
+//		  println(secondNum);
 		  for (int i=0; i<number-2; i++) {
 			  total = firstNum + secondNum;
 			  firstNum = secondNum;
