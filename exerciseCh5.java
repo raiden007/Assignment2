@@ -110,7 +110,7 @@ public class exerciseCh5 extends ConsoleProgram {
 		println(test % 10);
 		println("This program returns the number of digits in a number");
 		int n = readInt("Enter number: ");
-		println ("The sum of the digits is "+nDigits(n));
+		println ("The number of digits is "+nDigits(n));
 	}
 	
 	private int nDigits (int n) {
