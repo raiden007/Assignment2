@@ -7,7 +7,8 @@ public class exerciseCh5 extends ConsoleProgram {
 //		exerciseThree();
 //		exerciseFour();
 //		exerciseFive();
-		exerciseSix();
+//		exerciseSix();
+		exerciseSeven();
 	}
 	
 	
@@ -106,8 +107,6 @@ public class exerciseCh5 extends ConsoleProgram {
 	}
 	
 	private void exerciseSix() {
-		int test = 1234;
-		println(test % 10);
 		println("This program returns the number of digits in a number");
 		int n = readInt("Enter number: ");
 		println ("The number of digits is "+nDigits(n));
@@ -120,6 +119,26 @@ public class exerciseCh5 extends ConsoleProgram {
 			n /= 10;
 		}
 		return nrOfDigits;
+	}
+	
+	private void exerciseSeven() {
+		println("This program returns if a number is a perfect square.");
+		int n = readInt ("Enter number");
+		if (isPerfectSquare(n)==true) {
+		println("The number "+n+"is a perfect square.");
+		} else {
+			println("The number "+n+"is not a perfect square.");
+		}
+	}
+	
+	private boolean isPerfectSquare(int n) {
+		int result;
+		result = (int) Math.sqrt(n);
+		if (result % 2==0) {
+			return true;
+		} else {
+		return false;
+		}
 	}
 
 }
