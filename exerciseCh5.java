@@ -135,13 +135,15 @@ public class exerciseCh5 extends ConsoleProgram {
 		double result;
 		result = (double) Math.sqrt(n);
 		int intResult = (int) result;
-		println(result);
-		println(intResult);
 		if ((result/intResult) == 1) {
 			return true;
 		} else {
 		return false;
 		}
+	}
+	
+	private void exerciseEight() {
+		String string;
 	}
 
 }
