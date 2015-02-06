@@ -106,18 +106,20 @@ public class exerciseCh5 extends ConsoleProgram {
 	}
 	
 	private void exerciseSix() {
+		int test = 1234;
+		println(test % 10);
 		println("This program returns the number of digits in a number");
 		int n = readInt("Enter number: ");
 		println ("The sum of the digits is "+nDigits(n));
 	}
 	
 	private int nDigits (int n) {
-		int dsum = 0;
+		int nrOfDigits = 0;
 		while (n>0) {
-			dsum += n % 10;
+			nrOfDigits += n % 10;
 			n /= 10;
 		}
-		return dsum;
+		return nrOfDigits;
 	}
 
 }
