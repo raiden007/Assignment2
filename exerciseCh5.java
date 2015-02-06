@@ -132,7 +132,7 @@ public class exerciseCh5 extends ConsoleProgram {
 	}
 	
 	private boolean isPerfectSquare(int n) {
-		int result;
+		double result;
 		result = (double) Math.sqrt(n);
 		if (result % 2 == 0) {
 			return true;
