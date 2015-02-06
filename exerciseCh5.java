@@ -135,7 +135,7 @@ public class exerciseCh5 extends ConsoleProgram {
 		double result;
 		result = (double) Math.sqrt(n);
 		println("RESULT: "+result);
-		if (result % 2 == 0) {
+		if (result % 10 == 0) {
 			return true;
 		} else {
 		return false;
