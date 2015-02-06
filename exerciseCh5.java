@@ -125,7 +125,7 @@ public class exerciseCh5 extends ConsoleProgram {
 		println("This program returns if a number is a perfect square.");
 		int n = readInt ("Enter number: ");
 		if (isPerfectSquare(n)==true) {
-		println("The number "+n+"is a perfect square.");
+		println("The number "+n+" is a perfect square.");
 		} else {
 			println("The number "+n+" is not a perfect square.");
 		}
@@ -134,9 +134,10 @@ public class exerciseCh5 extends ConsoleProgram {
 	private boolean isPerfectSquare(int n) {
 		double result;
 		result = (double) Math.sqrt(n);
-		println("RESULT: "+result);
-		int integer = (int) result;
-		if (integer % 3 == 0) {
+		int intResult = (int) result;
+		println(result);
+		println(intResult);
+		if ((result/intResult) == 1) {
 			return true;
 		} else {
 		return false;
