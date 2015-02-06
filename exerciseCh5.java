@@ -136,7 +136,7 @@ public class exerciseCh5 extends ConsoleProgram {
 		result = (double) Math.sqrt(n);
 		println("RESULT: "+result);
 		int integer = (int) result;
-		if (integer % 10 == 0) {
+		if (integer % 3 == 0) {
 			return true;
 		} else {
 		return false;
