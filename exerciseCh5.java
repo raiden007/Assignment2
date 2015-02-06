@@ -6,7 +6,8 @@ public class exerciseCh5 extends ConsoleProgram {
 //		exerciseTwo();
 //		exerciseThree();
 //		exerciseFour();
-		exerciseFive();
+//		exerciseFive();
+		exerciseSix();
 	}
 	
 	
@@ -102,6 +103,21 @@ public class exerciseCh5 extends ConsoleProgram {
 			}
 		}
 		return result;
+	}
+	
+	private void exerciseSix() {
+		println("This program returns the number of digits in a number");
+		int n = readInt("Enter number: ");
+		println ("The sum of the digits is "+nDigits(n));
+	}
+	
+	private int nDigits (int n) {
+		int dsum = 0;
+		while (n>0) {
+			dsum += n % 10;
+			n /= 10;
+		}
+		return dsum;
 	}
 
 }
