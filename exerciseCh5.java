@@ -127,13 +127,14 @@ public class exerciseCh5 extends ConsoleProgram {
 		if (isPerfectSquare(n)==true) {
 		println("The number "+n+"is a perfect square.");
 		} else {
-			println("The number "+n+"is not a perfect square.");
+			println("The number "+n+" is not a perfect square.");
 		}
 	}
 	
 	private boolean isPerfectSquare(int n) {
 		double result;
 		result = (double) Math.sqrt(n);
+		println("RESULT: "+result);
 		if (result % 2 == 0) {
 			return true;
 		} else {
