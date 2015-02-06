@@ -116,7 +116,7 @@ public class exerciseCh5 extends ConsoleProgram {
 	private int nDigits (int n) {
 		int nrOfDigits = 0;
 		while (n>0) {
-			nrOfDigits += n % 10;
+			nrOfDigits ++;
 			n /= 10;
 		}
 		return nrOfDigits;
