@@ -15,7 +15,7 @@ public class Ch6Ex2 extends ConsoleProgram {
 			if (flipCoin()=="Heads") {
 				heads++;
 				println("Heads :"+heads);
-			} else {
+			} else if (flipCoin()=="Tails"){
 				tails++;
 				println("Tails :"+tails);
 			}
