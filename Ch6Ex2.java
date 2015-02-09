@@ -4,7 +4,7 @@ import acm.util.*;
 
 public class Ch6Ex2 extends ConsoleProgram {
 	public void run () {
-		rgen.setSeed(1);
+//		rgen.setSeed(1);
 		int heads=0;
 		int tails=0;
 		int nrOfFlips=0;
