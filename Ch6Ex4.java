@@ -11,13 +11,14 @@ public class Ch6Ex4 extends ConsoleProgram {
 			String atomsDecayed = atomDecayed();
 			if (atomsDecayed=="Decayed") {
 				atoms--;
-				println(atoms);
+			//	println(atoms);
 			} else {
 			//	println(atoms);
 			}
-			years ++;
-			println("There are "+atoms+" at the end of year "+years);
+
 		}
+		years ++;
+		println("There are "+atoms+" at the end of year "+years);
 	}
 	
 	private RandomGenerator rgen = new RandomGenerator();
