@@ -6,15 +6,15 @@ public class randomCard extends ConsoleProgram {
 	public void run () {
 		int cardNumber = cardNumber();
 		if (cardNumber==1) {
-			println ("Your card is Ace ");
+			print ("Your card is Ace ");
 		} else if (cardNumber==11){
-			println ("Your card is Jack");
+			print ("Your card is Jack");
 		} else if (cardNumber==12) {
-			println("You card is Queen");
+			print("You card is Queen");
 		} else if (cardNumber==13) {
-			println("Your card is King");
+			print("Your card is King");
 		} else {
-			println("Your card is "+cardNumber);
+			print("Your card is "+cardNumber);
 		}
 		int cardSuite = randomSuite();
 		if (cardSuite==1) {
