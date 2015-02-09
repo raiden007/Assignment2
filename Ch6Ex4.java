@@ -7,18 +7,19 @@ public class Ch6Ex4 extends ConsoleProgram {
 		int years = 0;
 		int atoms = initialAtoms;
 		println("There are "+ initialAtoms+" atoms intially.");
-		for (int i=0;i<atoms;i++) {
-			String atomsDecayed = atomDecayed();
-			if (atomsDecayed=="Decayed") {
-				atoms--;
+		while (atoms>0) {
+			for (int i=0;i<atoms;i++) {
+				String atomsDecayed = atomDecayed();
+					if (atomsDecayed=="Decayed") {
+						atoms--;
 			//	println(atoms);
-			} else {
+					} else {
 			//	println(atoms);
+					}
 			}
-
-		}
 		years ++;
 		println("There are "+atoms+" at the end of year "+years);
+		}
 	}
 	
 	private RandomGenerator rgen = new RandomGenerator();
