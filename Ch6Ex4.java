@@ -12,9 +12,9 @@ public class Ch6Ex4 extends ConsoleProgram {
 				String atomsDecayed = atomDecayed();
 					if (atomsDecayed=="Decayed") {
 						atoms--;
-		//		println("Decayed atom");
+				println("Decayed atom");
 					} else {
-		//		println("Not decayed");
+				println("Not decayed");
 					}
 			}
 		initialAtoms = atoms;
