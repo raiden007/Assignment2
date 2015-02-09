@@ -16,8 +16,9 @@ public class Ch6Ex4 extends ConsoleProgram {
 					} else {
 				println("Not decayed");
 					}
-				initialAtoms = atoms;
+				
 			}
+		initialAtoms = atoms;
 		years ++;
 		println("There are "+atoms+" at the end of year "+years);
 		}
