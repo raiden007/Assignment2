@@ -7,14 +7,14 @@ public class randomCard extends ConsoleProgram {
 		int cardNumber = cardNumber();
 		if (cardNumber==1) {
 			println ("Your card is Ace");
-		} else if (cardNumber==2){
-			println ("Your card is 2");
-		} else if (cardNumber==3) {
-			println("You card is 3");
-		} else if (cardNumber==4) {
-			println("Your card is 4");
-		} else if (cardNumber==5) {
-			println("Your card is 5");
+		} else if (cardNumber==11){
+			println ("Your card is Jack");
+		} else if (cardNumber==12) {
+			println("You card is Queen");
+		} else if (cardNumber==13) {
+			println("Your card is King");
+		} else {
+			println("Your card is "+cardNumber);
 		}
 	}
 	
