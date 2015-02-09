@@ -1,3 +1,7 @@
+/* This program shows a random card from a 52 deck of cards
+ * and it shows the result.
+ */
+
 import acm.program.*;
 import acm.util.*;
 
