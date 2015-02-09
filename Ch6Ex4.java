@@ -8,7 +8,7 @@ public class Ch6Ex4 extends ConsoleProgram {
 		int atoms = initialAtoms;
 		println("There are "+ initialAtoms+" atoms intially.");
 		while (atoms>0) {
-			for (int i=0;i<atoms;i++) {
+			for (int i=0;i<initialAtoms;i++) {
 				String atomsDecayed = atomDecayed();
 					if (atomsDecayed=="Decayed") {
 						atoms--;
@@ -16,6 +16,7 @@ public class Ch6Ex4 extends ConsoleProgram {
 					} else {
 				println("Not decayed");
 					}
+				initialAtoms = atoms;
 			}
 		years ++;
 		println("There are "+atoms+" at the end of year "+years);
