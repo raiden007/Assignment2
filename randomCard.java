@@ -14,7 +14,7 @@ public class randomCard extends ConsoleProgram {
 		} else if (cardNumber==13) {
 			print("Your card is King");
 		} else {
-			print("Your card is "+cardNumber);
+			print("Your card is "+cardNumber+" ");
 		}
 		int cardSuite = randomSuite();
 		if (cardSuite==1) {
