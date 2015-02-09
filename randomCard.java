@@ -26,6 +26,7 @@ public class randomCard extends ConsoleProgram {
 	private int cardNumber() {
 		int number = randomNumber();
 		println(number);
+		return number;
 	}
 	
 	private RandomGenerator rgen = new RandomGenerator();
