@@ -3,7 +3,7 @@ import acm.util.RandomGenerator;
 
 public class Ch6Ex4 extends ConsoleProgram {
 	public void run() {
-		int initialAtoms = 10;
+		int initialAtoms = 10000;
 		int years = 0;
 		int atoms = initialAtoms;
 		println("There are "+ initialAtoms+" atoms intially.");
@@ -12,11 +12,10 @@ public class Ch6Ex4 extends ConsoleProgram {
 				String atomsDecayed = atomDecayed();
 					if (atomsDecayed=="Decayed") {
 						atoms--;
-				println("Decayed atom");
+		//		println("Decayed atom");
 					} else {
-				println("Not decayed");
+		//		println("Not decayed");
 					}
-				
 			}
 		initialAtoms = atoms;
 		years ++;
