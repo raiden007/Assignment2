@@ -8,7 +8,7 @@ public class Ch6Ex2 extends ConsoleProgram {
 		int heads=0;
 		int tails=0;
 		int nrOfFlips=0;
-		while (heads<1) {
+		while (heads<2) {
 //			flipCoin();
 			println("FlipCoin: "+flipCoin());
 			nrOfFlips++;
