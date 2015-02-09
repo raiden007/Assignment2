@@ -20,7 +20,7 @@ public class Ch6Ex2 extends ConsoleProgram {
 			println("Heads :"+heads);
 			println("Tails :"+tails);
 		}
-		println ("It took "+nrOfFlips+" flips to get 3 heads.");
+		println ("It took "+nrOfFlips+" flips to get "+heads+" heads.");
 		
 	}
 	
