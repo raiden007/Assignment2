@@ -8,7 +8,7 @@ public class Ch6Ex2 extends ConsoleProgram {
 		int heads=0;
 		int tails=0;
 		int nrOfFlips=0;
-		while (heads<10) {
+		while (heads<) {
 			String flip = flipCoin();
 			println("FlipCoin: "+flip);
 			nrOfFlips++;
@@ -17,10 +17,10 @@ public class Ch6Ex2 extends ConsoleProgram {
 				println("Heads :"+heads);
 			} else if (flip=="Tails"){
 				tails++;
-				println("Tails :"+tails);
-			}
 
-		
+			}
+			println("Tails :"+tails);
+			println("Tails :"+tails);	
 			
 		}
 		println ("It took "+nrOfFlips+" flips to get "+heads+" heads.");
