@@ -14,11 +14,11 @@ public class Ch6Ex1 extends ConsoleProgram {
 		if (cardNumber==1) {
 			print ("Your card is Ace ");
 		} else if (cardNumber==11){
-			print ("Your card is Jack");
+			print ("Your card is Jack ");
 		} else if (cardNumber==12) {
-			print("You card is Queen");
+			print("You card is Queen ");
 		} else if (cardNumber==13) {
-			print("Your card is King");
+			print("Your card is King ");
 		} else {
 			print("Your card is "+cardNumber+" ");
 		}
