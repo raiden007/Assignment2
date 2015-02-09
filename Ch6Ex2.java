@@ -17,7 +17,7 @@ public class Ch6Ex2 extends ConsoleProgram {
 			} else if (flip=="Tails"){
 				tails++;
 			}
-			println("Tails :"+tails);
+			println("Heads :"+heads);
 			println("Tails :"+tails);	
 			
 		}
