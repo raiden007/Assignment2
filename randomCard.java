@@ -36,13 +36,13 @@ public class randomCard extends ConsoleProgram {
 	
 	private int cardNumber() {
 		int number = randomCardNumber();
-		println(number);
+	//	println(number);
 		return number;
 	}
 	
 	private int randomSuite() {
 		int suite = rgen.nextInt(1,4);
-		println(suite);
+	//	println(suite);
 		return suite;
 	}
 	
