@@ -9,7 +9,6 @@ public class Ch6Ex2 extends ConsoleProgram {
 		int tails=0;
 		int nrOfFlips=0;
 		while (heads<10) {
-			flipCoin();
 			println("FlipCoin: "+flipCoin());
 			nrOfFlips++;
 			if (flipCoin()=="Heads") {
