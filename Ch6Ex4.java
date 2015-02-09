@@ -6,6 +6,7 @@ public class Ch6Ex4 extends ConsoleProgram {
 		int initialAtoms = 10000;
 		int years = 0;
 		int atoms = initialAtoms;
+		println("There are "+ initialAtoms+" atoms intially.");
 		for (int i=0;i<atoms;i++) {
 			String atomsDecayed = atomDecayed();
 			if (atomsDecayed=="Decayed") {
@@ -14,6 +15,8 @@ public class Ch6Ex4 extends ConsoleProgram {
 			} else {
 			//	println(atoms);
 			}
+			years ++;
+			println("There are "+atoms+" at the end of year "+years);
 		}
 	}
 	
