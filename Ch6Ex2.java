@@ -9,13 +9,13 @@ public class Ch6Ex2 extends ConsoleProgram {
 		int tails=0;
 		int nrOfFlips=0;
 		while (heads<2) {
-//			flipCoin();
-			println("FlipCoin: "+flipCoin());
+			String flip = flipCoin();
+			println("FlipCoin: "+flip);
 			nrOfFlips++;
-			if (flipCoin()=="Heads") {
+			if (flip=="Heads") {
 				heads++;
 				println("Heads :"+heads);
-			} else if (flipCoin()=="Tails"){
+			} else if (flip=="Tails"){
 				tails++;
 				println("Tails :"+tails);
 			}
