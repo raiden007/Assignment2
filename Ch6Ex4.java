@@ -3,7 +3,7 @@ import acm.util.RandomGenerator;
 
 public class Ch6Ex4 extends ConsoleProgram {
 	public void run() {
-		int initialAtoms = 100;
+		int initialAtoms = 10;
 		int years = 0;
 		int atoms = initialAtoms;
 		println("There are "+ initialAtoms+" atoms intially.");
