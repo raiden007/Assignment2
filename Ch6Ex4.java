@@ -12,7 +12,7 @@ public class Ch6Ex4 extends ConsoleProgram {
 				atoms--;
 				println(atoms);
 			} else {
-				println(atoms);
+			//	println(atoms);
 			}
 		}
 	}
