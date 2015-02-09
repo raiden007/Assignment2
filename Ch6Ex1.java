@@ -2,7 +2,7 @@ import acm.program.*;
 import acm.util.*;
 
 
-public class randomCard extends ConsoleProgram {
+public class Ch6Ex1 extends ConsoleProgram {
 	public void run () {
 		int cardNumber = cardNumber();
 		if (cardNumber==1) {
