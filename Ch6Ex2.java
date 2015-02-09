@@ -14,13 +14,13 @@ public class Ch6Ex2 extends ConsoleProgram {
 			nrOfFlips++;
 			if (flipCoin()=="Heads") {
 				heads++;
-				println("Heads :"+heads);
+
 			} else if (flipCoin()=="Tails"){
 				tails++;
-				println("Tails :"+tails);
+
 			}
-			
-			
+			println("Heads :"+heads);
+			println("Tails :"+tails);		
 			
 		}
 		println ("It took "+nrOfFlips+" flips to get "+heads+" heads.");
