@@ -9,6 +9,7 @@ public class Ch6Ex5 extends ConsoleProgram {
 	
 	public void run() {
 		// Seed 5 tests that the result is less than zero
+		// Seed 13121 tests that the result is greater than 20(max Range)
 		rgen.setSeed(13121);
 		exerciseFive();
 	}
@@ -25,10 +26,10 @@ public class Ch6Ex5 extends ConsoleProgram {
 			secondNumber=numberRandom();
 		}
 		
-//		while (firstNumber+secondNumber>maxRange) {
-	//		firstNumber=numberRandom();
-//			secondNumber=numberRandom();
-//		}
+		while (firstNumber+secondNumber>maxRange) {
+			firstNumber=numberRandom();
+			secondNumber=numberRandom();
+		}
 
 		if (operation=="+") {
 			result = firstNumber+secondNumber;
