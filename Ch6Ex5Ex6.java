@@ -1,7 +1,7 @@
 import acm.program.*;
 import acm.util.RandomGenerator;
 
-public class Ch6Ex5 extends ConsoleProgram {
+public class Ch6Ex5Ex6 extends ConsoleProgram {
 	
 	int minRange = 0;
 	int maxRange = 20;
