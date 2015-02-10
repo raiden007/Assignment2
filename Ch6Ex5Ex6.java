@@ -61,6 +61,7 @@ public class Ch6Ex5Ex6 extends ConsoleProgram {
 							println(gzRandom());
 							tries=3;
 						} else {
+							println("You are dumb");
 							tries++;	
 						}
 					}
