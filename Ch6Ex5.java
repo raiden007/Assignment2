@@ -8,8 +8,8 @@ public class Ch6Ex5 extends ConsoleProgram {
 	int nrOfQuestions = 5;
 	
 	public void run() {
-		// Seed 5 tests that the result is less than zero
-		// Seed 13121 tests that the result is greater than 20(max Range)
+		// Seed 2 tests that the result is less than zero
+		// Seed ? tests that the result is greater than 20(max Range)
 		rgen.setSeed(2);
 		exerciseFive();
 	}
@@ -23,10 +23,17 @@ public class Ch6Ex5 extends ConsoleProgram {
 			int secondNumber=numberRandom();
 			int result;
 			
+			println(firstNumber);
+			println(secondNumber);
+			
+			
 			while (firstNumber-secondNumber<minRange) {
 				firstNumber=numberRandom();
 				secondNumber=numberRandom();
 			}
+			
+			println(firstNumber);
+			println(secondNumber);
 			
 			while (firstNumber+secondNumber>maxRange) {
 				firstNumber=numberRandom();
