@@ -16,6 +16,11 @@ public class Ch6Ex5 extends ConsoleProgram {
 		int firstNumber=numberRandom();
 		int secondNumber=numberRandom();
 		int result;
+		
+		while (firstNumber-secondNumber<0) {
+			firstNumber=numberRandom();
+			secondNumber=numberRandom();
+		}
 
 		if (operation=="+") {
 			result = firstNumber+secondNumber;
