@@ -51,13 +51,13 @@ public class Ch6Ex5 extends ConsoleProgram {
 			
 			int userResult = readInt("What is "+firstNumber+" "+operation+" "+secondNumber+" ? ");
 			if (userResult==result) {
-				println("Correct!");
+				println(gzRandom());
 			} else {
 				int tries=0;
 					while (tries<3) {
 						int newUserResult = readInt ("That's incorrect - try a different answer: ");
 						if (newUserResult==result) {
-							println("Correct!");
+							println(gzRandom());
 							tries=3;
 						} else {
 							tries++;	
@@ -82,6 +82,23 @@ public class Ch6Ex5 extends ConsoleProgram {
 		return number;
 	}
 	
-
+	private String gzRandom() {
+		String message = "";
+		int number = rgen.nextInt(0,5);
+		if (number==0) {
+			message = "Gz!";
+		} else if (number==1) {
+			message = "Congrats!";
+		} else if (number==2) {
+			message = "You're awesome!";
+		} else if (number==3) {
+			message = "Wow you are good!";
+		} else if (number==4) {
+			message = "Nice!!!";
+		} else {
+			message = "All right, all right, all right!";
+		}
+		return message;
+	}
 	
 }
