@@ -66,7 +66,7 @@ public class Ch6Ex5 extends ConsoleProgram {
 				}
 		}
 		
-		
+		println("Thanks for playing!");
 	}
 	
 	private RandomGenerator rgen = new RandomGenerator();
