@@ -26,26 +26,21 @@ public class Ch6Ex5 extends ConsoleProgram {
 			println("Initialized 1st number" + firstNumber);
 			println(secondNumber);
 			
-			
-			while (firstNumber-secondNumber<minRange) {
-				firstNumber=numberRandom();
-				secondNumber=numberRandom();
-			}
-			
-			println("Check it's not less than zero" + firstNumber);
-			println(secondNumber);
-			
-			while (firstNumber+secondNumber>maxRange) {
-				firstNumber=numberRandom();
-				secondNumber=numberRandom();
-			}
-			
-			println("Check it's not greater than 20" + firstNumber);
-			println(secondNumber);
-
 			if (operation=="+") {
+				while (firstNumber+secondNumber>maxRange) {
+					firstNumber=numberRandom();
+					secondNumber=numberRandom();
+					println("Check it's not greater than 20" + firstNumber);
+					println(secondNumber);
+				}
 				result = firstNumber+secondNumber;
 			} else {
+				while (firstNumber-secondNumber<minRange) {
+					firstNumber=numberRandom();
+					secondNumber=numberRandom();
+					println("Check it's not less than zero" + firstNumber);
+					println(secondNumber);
+				}
 				result = firstNumber-secondNumber;
 			}
 			
