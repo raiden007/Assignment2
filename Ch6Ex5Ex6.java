@@ -49,6 +49,7 @@ public class Ch6Ex5Ex6 extends ConsoleProgram {
 	//		println(operation);
 	//		println(result);
 			
+			println("");
 			int userResult = readInt("What is "+firstNumber+" "+operation+" "+secondNumber+" ? ");
 			if (userResult==result) {
 				println(gzRandom());
