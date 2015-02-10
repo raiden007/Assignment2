@@ -64,7 +64,7 @@ public class Ch6Ex5Ex6 extends ConsoleProgram {
 							tries++;	
 						}
 					}
-						println("You are dumb");
+						println("Wrong answer");
 				}
 		}
 		
