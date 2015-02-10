@@ -45,7 +45,7 @@ public class Ch6Ex5 extends ConsoleProgram {
 		println ("Welcome to Math Quiz!");
 		for (int i=0; i<nrOfQuestions; i++) {
 			int userResult = readInt("What is "+firstNumber+" "+operation+" "+secondNumber+" ? ");
-			int userResult = readInt("");
+	//		int userResult = readInt("");
 			if (userResult==result) {
 				println("Correct!");
 			} else {
