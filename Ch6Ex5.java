@@ -16,7 +16,6 @@ public class Ch6Ex5 extends ConsoleProgram {
 	
 	private void exerciseFive() {
 		println ("Welcome to Math Quiz!");
-		for (int i=0;i<nrOfQuestions;i++) {
 			
 
 		String operation = operationRandom();
@@ -40,8 +39,8 @@ public class Ch6Ex5 extends ConsoleProgram {
 			result = firstNumber-secondNumber;
 		}
 		
-		println(firstNumber);
-		println(secondNumber);
+		println("First try ="+firstNumber);
+		println("First try ="+secondNumber);
 		println(operation);
 		println(result);
 		
@@ -50,7 +49,10 @@ public class Ch6Ex5 extends ConsoleProgram {
 			int userResult = readInt("What is "+firstNumber+" "+operation+" "+secondNumber+" ? ");
 			if (userResult==result) {
 				println("Correct!");
-
+				firstNumber=numberRandom();
+				secondNumber=numberRandom();
+				println("Second try ="+firstNumber);
+				println("Second try ="+secondNumber);
 			} else {
 				int tries=0;
 					while (tries<3) {
@@ -66,7 +68,6 @@ public class Ch6Ex5 extends ConsoleProgram {
 		}
 		
 		
-	}
 	}
 	
 	private RandomGenerator rgen = new RandomGenerator();
