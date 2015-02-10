@@ -67,6 +67,7 @@ public class Ch6Ex5Ex6 extends ConsoleProgram {
 				}
 		}
 		
+		println("");
 		println("Thanks for playing!");
 	}
 	
