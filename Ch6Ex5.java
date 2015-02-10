@@ -10,7 +10,7 @@ public class Ch6Ex5 extends ConsoleProgram {
 	public void run() {
 		// Seed 5 tests that the result is less than zero
 		// Seed 1012121 tests that the result is greater than 20(max Range)
-		rgen.setSeed(1012121);
+	//	rgen.setSeed(1012121);
 		exerciseFive();
 	}
 	
@@ -23,29 +23,29 @@ public class Ch6Ex5 extends ConsoleProgram {
 			int secondNumber=numberRandom();
 			int result;
 			
-			println("Initialized 1st number: " + firstNumber);
-			println("Initialized 2nd number: " + secondNumber);
+	//		println("Initialized 1st number: " + firstNumber);
+	//		println("Initialized 2nd number: " + secondNumber);
 			
 			if (operation=="+") {
 				while (firstNumber+secondNumber>maxRange) {
 					firstNumber=numberRandom();
 					secondNumber=numberRandom();
-					println("Check it's not greater than 20: " + firstNumber);
-					println("Check it's not greater than 20: " + secondNumber);
+	//				println("Check it's not greater than 20: " + firstNumber);
+	//				println("Check it's not greater than 20: " + secondNumber);
 				}
 				result = firstNumber+secondNumber;
 			} else {
 				while (firstNumber-secondNumber<minRange) {
 					firstNumber=numberRandom();
 					secondNumber=numberRandom();
-					println("Check it's not less than zero: " + firstNumber);
-					println("Check it's not less than zero: " + secondNumber);
+	//				println("Check it's not less than zero: " + firstNumber);
+	//				println("Check it's not less than zero: " + secondNumber);
 				}
 				result = firstNumber-secondNumber;
 			}
 			
-			println("Last check: "+firstNumber);
-			println("Last check: "+secondNumber);
+	//		println("Last check: "+firstNumber);
+	//		println("Last check: "+secondNumber);
 			println(operation);
 			println(result);
 			
