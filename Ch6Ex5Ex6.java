@@ -89,9 +89,9 @@ public class Ch6Ex5Ex6 extends ConsoleProgram {
 		String message = "";
 		int number = rgen.nextInt(0,5);
 		if (number==0) {
-			message = "Gz!";
+			message = "YES!";
 		} else if (number==1) {
-			message = "Congrats!";
+			message = "Correct!";
 		} else if (number==2) {
 			message = "You're awesome!";
 		} else if (number==3) {
