@@ -44,7 +44,7 @@ public class Ch6Ex5 extends ConsoleProgram {
 		
 		println ("Welcome to Math Quiz!");
 		for (int i=0; i<nrOfQuestions; i++) {
-			println ("What is "+firstNumber+" "+operation+secondNumber+" ?");
+			println ("What is "+firstNumber+" "+operation+secondNumber+" "+" ?");
 		}
 		
 		
