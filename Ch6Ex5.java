@@ -52,7 +52,12 @@ public class Ch6Ex5 extends ConsoleProgram {
 				int tries=0;
 					while (tries<3) {
 						int newUserResult = readInt ("That's incorrect - try a different answer: ");
-						tries++;
+						if (newUserResult==result) {
+							println("Correct!");
+							tries=3;
+						} else {
+							tries++;	
+						}
 					}			
 				}
 		}
