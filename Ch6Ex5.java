@@ -10,7 +10,7 @@ public class Ch6Ex5 extends ConsoleProgram {
 	public void run() {
 		// Seed 5 tests that the result is less than zero
 		// Seed 13121 tests that the result is greater than 20(max Range)
-		rgen.setSeed(13121);
+	//	rgen.setSeed(13121);
 		exerciseFive();
 	}
 	
@@ -45,7 +45,6 @@ public class Ch6Ex5 extends ConsoleProgram {
 		println ("Welcome to Math Quiz!");
 		for (int i=0; i<nrOfQuestions; i++) {
 			int userResult = readInt("What is "+firstNumber+" "+operation+" "+secondNumber+" ? ");
-	//		int userResult = readInt("");
 			if (userResult==result) {
 				println("Correct!");
 			} else {
