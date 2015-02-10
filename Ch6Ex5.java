@@ -17,42 +17,36 @@ public class Ch6Ex5 extends ConsoleProgram {
 	private void exerciseFive() {
 		println ("Welcome to Math Quiz!");
 			
-
-		String operation = operationRandom();
-		int firstNumber=numberRandom();
-		int secondNumber=numberRandom();
-		int result;
-		
-		while (firstNumber-secondNumber<minRange) {
-			firstNumber=numberRandom();
-			secondNumber=numberRandom();
-		}
-		
-		while (firstNumber+secondNumber>maxRange) {
-			firstNumber=numberRandom();
-			secondNumber=numberRandom();
-		}
-
-		if (operation=="+") {
-			result = firstNumber+secondNumber;
-		} else {
-			result = firstNumber-secondNumber;
-		}
-		
-		println("First try ="+firstNumber);
-		println("First try ="+secondNumber);
-		println(operation);
-		println(result);
-		
-
 		for (int j=0; j<nrOfQuestions; j++) {
+			String operation = operationRandom();
+			int firstNumber=numberRandom();
+			int secondNumber=numberRandom();
+			int result;
+			
+			while (firstNumber-secondNumber<minRange) {
+				firstNumber=numberRandom();
+				secondNumber=numberRandom();
+			}
+			
+			while (firstNumber+secondNumber>maxRange) {
+				firstNumber=numberRandom();
+				secondNumber=numberRandom();
+			}
+
+			if (operation=="+") {
+				result = firstNumber+secondNumber;
+			} else {
+				result = firstNumber-secondNumber;
+			}
+			
+			println(firstNumber);
+			println(secondNumber);
+			println(operation);
+			println(result);
+			
 			int userResult = readInt("What is "+firstNumber+" "+operation+" "+secondNumber+" ? ");
 			if (userResult==result) {
 				println("Correct!");
-				firstNumber=numberRandom();
-				secondNumber=numberRandom();
-				println("Second try ="+firstNumber);
-				println("Second try ="+secondNumber);
 			} else {
 				int tries=0;
 					while (tries<3) {
@@ -60,18 +54,10 @@ public class Ch6Ex5 extends ConsoleProgram {
 						if (newUserResult==result) {
 							println("Correct!");
 							tries=3;
-							firstNumber=numberRandom();
-							secondNumber=numberRandom();
-							println("Third try ="+firstNumber);
-							println("Third try ="+secondNumber);
 						} else {
 							tries++;	
 						}
 					}
-					firstNumber=numberRandom();
-					secondNumber=numberRandom();
-					println("Fourth try ="+firstNumber);
-					println("Fourth try ="+secondNumber);
 				}
 		}
 		
