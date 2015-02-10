@@ -6,7 +6,7 @@ public class Ch6Ex5 extends ConsoleProgram {
 	int appropiateRange = 20;
 	
 	public void run() {
-	//	rgen.setSeed(1);
+		rgen.setSeed(2);
 		exerciseFive();
 	}
 	
@@ -17,10 +17,10 @@ public class Ch6Ex5 extends ConsoleProgram {
 		int secondNumber=numberRandom();
 		int result;
 		
-		while (firstNumber-secondNumber<0) {
-			firstNumber=numberRandom();
-			secondNumber=numberRandom();
-		}
+	//	while (firstNumber-secondNumber<0) {
+	//		firstNumber=numberRandom();
+	//		secondNumber=numberRandom();
+	//	}
 
 		if (operation=="+") {
 			result = firstNumber+secondNumber;
