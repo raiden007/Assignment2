@@ -10,7 +10,7 @@ public class Ch6Ex5 extends ConsoleProgram {
 	public void run() {
 		// Seed 5 tests that the result is less than zero
 		// Seed ? tests that the result is greater than 20(max Range)
-		rgen.setSeed(8);
+		rgen.setSeed(9);
 		exerciseFive();
 	}
 	
