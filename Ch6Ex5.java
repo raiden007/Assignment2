@@ -46,7 +46,7 @@ public class Ch6Ex5 extends ConsoleProgram {
 		println(result);
 		
 
-		for (int i=0; i<nrOfQuestions; i++) {
+		for (int j=0; j<nrOfQuestions; j++) {
 			int userResult = readInt("What is "+firstNumber+" "+operation+" "+secondNumber+" ? ");
 			if (userResult==result) {
 				println("Correct!");
