@@ -52,7 +52,7 @@ public class Ch6Ex5 extends ConsoleProgram {
 	}
 	
 	private int numberRandom () {
-		int number = rgen.nextInt(1,appropiateRange);
+		int number = rgen.nextInt(1,maxRange);
 		return number;
 	}
 	
