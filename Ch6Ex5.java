@@ -23,15 +23,15 @@ public class Ch6Ex5 extends ConsoleProgram {
 			int secondNumber=numberRandom();
 			int result;
 			
-			println("Initialized 1st number" + firstNumber);
-			println(secondNumber);
+			println("Initialized 1st number " + firstNumber);
+			println("Initialized 2nd number " + secondNumber);
 			
 			if (operation=="+") {
 				while (firstNumber+secondNumber>maxRange) {
 					firstNumber=numberRandom();
 					secondNumber=numberRandom();
 					println("Check it's not greater than 20" + firstNumber);
-					println(secondNumber);
+					println("Check it's not greater than 20" + secondNumber);
 				}
 				result = firstNumber+secondNumber;
 			} else {
@@ -39,13 +39,13 @@ public class Ch6Ex5 extends ConsoleProgram {
 					firstNumber=numberRandom();
 					secondNumber=numberRandom();
 					println("Check it's not less than zero" + firstNumber);
-					println(secondNumber);
+					println("Check it's not less than zero" + secondNumber);
 				}
 				result = firstNumber-secondNumber;
 			}
 			
 			println("Last check "+firstNumber);
-			println(secondNumber);
+			println("Last check "+secondNumber);
 			println(operation);
 			println(result);
 			
