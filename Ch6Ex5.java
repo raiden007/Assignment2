@@ -46,8 +46,8 @@ public class Ch6Ex5 extends ConsoleProgram {
 			
 	//		println("Last check: "+firstNumber);
 	//		println("Last check: "+secondNumber);
-			println(operation);
-			println(result);
+	//		println(operation);
+	//		println(result);
 			
 			int userResult = readInt("What is "+firstNumber+" "+operation+" "+secondNumber+" ? ");
 			if (userResult==result) {
