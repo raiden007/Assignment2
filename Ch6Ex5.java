@@ -25,6 +25,7 @@ public class Ch6Ex5 extends ConsoleProgram {
 		
 		println(firstNumber);
 		println(secondNumber);
+		println(operation);
 		println(result);
 		
 	}
