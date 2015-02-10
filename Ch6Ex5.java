@@ -47,6 +47,8 @@ public class Ch6Ex5 extends ConsoleProgram {
 			int userResult = readInt("What is "+firstNumber+" "+operation+" "+secondNumber+" ? ");
 			if (userResult==result) {
 				println("Correct!");
+				firstNumber=numberRandom();
+				secondNumber=numberRandom();
 			} else {
 				int tries=0;
 					while (tries<3) {
