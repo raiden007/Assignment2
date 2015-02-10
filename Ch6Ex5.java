@@ -6,7 +6,7 @@ public class Ch6Ex5 extends ConsoleProgram {
 	int appropiateRange = 20;
 	
 	public void run() {
-		rgen.setSeed(3);
+		rgen.setSeed(4);
 		exerciseFive();
 	}
 	
