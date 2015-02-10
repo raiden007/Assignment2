@@ -5,7 +5,7 @@ public class Ch6Ex5 extends ConsoleProgram {
 	
 	int minRange = 0;
 	int maxRange = 20;
-
+	int nrOfQuestions = 5;
 	
 	public void run() {
 		// Seed 5 tests that the result is less than zero
@@ -15,7 +15,7 @@ public class Ch6Ex5 extends ConsoleProgram {
 	}
 	
 	private void exerciseFive() {
-		int nrOfQuestions = 5;
+		
 		String operation = operationRandom();
 		int firstNumber=numberRandom();
 		int secondNumber=numberRandom();
@@ -42,6 +42,12 @@ public class Ch6Ex5 extends ConsoleProgram {
 		println(operation);
 		println(result);
 		
+		println ("Welcome to Math Quiz!");
+		for (int i=0; i<nrOfQuestions; i++) {
+			println ("What is "+firstNumber+" "+operation+secondNumber+" ?");
+		}
+		
+		
 	}
 	
 	private RandomGenerator rgen = new RandomGenerator();
@@ -57,6 +63,6 @@ public class Ch6Ex5 extends ConsoleProgram {
 		return number;
 	}
 	
-	
+
 	
 }
