@@ -98,6 +98,7 @@ public class Ch6Ex5Ex6 extends ConsoleProgram {
 		} else {
 			message = "All right, all right, all right!";
 		}
+		println("");
 		return message;
 	}
 	
