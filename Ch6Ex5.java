@@ -60,10 +60,18 @@ public class Ch6Ex5 extends ConsoleProgram {
 						if (newUserResult==result) {
 							println("Correct!");
 							tries=3;
+							firstNumber=numberRandom();
+							secondNumber=numberRandom();
+							println("Third try ="+firstNumber);
+							println("Third try ="+secondNumber);
 						} else {
 							tries++;	
 						}
-					}			
+					}
+					firstNumber=numberRandom();
+					secondNumber=numberRandom();
+					println("Fourth try ="+firstNumber);
+					println("Fourth try ="+secondNumber);
 				}
 		}
 		
