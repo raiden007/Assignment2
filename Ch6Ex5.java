@@ -9,7 +9,7 @@ public class Ch6Ex5 extends ConsoleProgram {
 	
 	public void run() {
 		// Seed 5 tests that the result is less than zero
-		rgen.setSeed(10);
+		rgen.setSeed(11);
 		exerciseFive();
 	}
 	
