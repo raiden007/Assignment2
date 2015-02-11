@@ -22,7 +22,7 @@ public class Employee {
 		name = newName;
 	}
 	
-/*	public Employee(String newName, String newSupervizor) {
+	public Employee(String newName, String newSupervizor) {
 		name = newName;
 		supervizor = newSupervizor;
 	}
@@ -32,7 +32,7 @@ public class Employee {
 		supervizor = newSupervizor;
 		salary = newSalary;
 	}
-*/
+
 	
 	public String getName() {
 		return name;
@@ -43,6 +43,11 @@ public class Employee {
 	}
 	
 	public double setSalary(double x) {
+		x = salary;
+		return salary;
+	}
+	
+	public double getSalary() {
 		return salary;
 	}
 }
