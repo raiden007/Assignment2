@@ -22,9 +22,9 @@ public class Employee {
 		name = newName;
 	}
 	
-	public Employee(String newName, String newSupervizor) {
+	public Employee(String newName, double newSalary) {
 		name = newName;
-		supervizor = newSupervizor;
+		salary = newSalary;
 	}
 	
 	public Employee(String newName, String newSupervizor, double newSalary) {
