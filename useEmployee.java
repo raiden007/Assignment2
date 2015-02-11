@@ -9,6 +9,6 @@ public class useEmployee extends ConsoleProgram {
 		println(Florin.getName());
 		println(Florin.getSupervizor());
 		println(Florin.setSalary(1200));
-		println(Florin.getSalary());		
+		println(Florin.setSalary());		
 	}
 }
