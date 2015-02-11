@@ -4,6 +4,7 @@ public class useEmployee extends ConsoleProgram {
 	public void run() {
 		Employee Bob = new Employee("Bob");
 		println(Bob);
+		Bob.getName();
 		
 	}
 }
