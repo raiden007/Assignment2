@@ -18,11 +18,21 @@ public class Employee {
 	private String supervizor;
 	private double salary;
 	
+	public Employee(String newName) {
+		name = newName;
+	}
+	
+/*	public Employee(String newName, String newSupervizor) {
+		name = newName;
+		supervizor = newSupervizor;
+	}
+	
 	public Employee(String newName, String newSupervizor, double newSalary) {
 		name = newName;
 		supervizor = newSupervizor;
 		salary = newSalary;
 	}
+*/
 	
 	public String getName() {
 		return name;
