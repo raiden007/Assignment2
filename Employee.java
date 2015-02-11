@@ -43,7 +43,7 @@ public class Employee {
 	}
 	
 	public double setSalary(double x) {
-		x = salary;
+		salary = x;
 		return salary;
 	}
 	
