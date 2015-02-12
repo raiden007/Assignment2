@@ -4,13 +4,14 @@ import acm.graphics.*;
 import acm.program.*;
 
 
-public class BouncingBalls extends GraphicsProgram {
+public class randomCircles extends GraphicsProgram {
 	public void run () {
 		for (int i=0;i<10;i++) {
 			GOval GOval = null;
 			GOval circle = GOval;
 			circle.setColor(rgen.nextColor());
 			int radious = setRandomRadius();
+			println(radious);
 
 //			setRandomPosition();
 //			placeOnMap();
@@ -20,7 +21,6 @@ public class BouncingBalls extends GraphicsProgram {
 	
 	private int setRandomRadius () {
 		int a = rgen.nextInt(5,50);
-		println(a);
 		return a;
 	}
 	
