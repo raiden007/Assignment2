@@ -1,23 +1,32 @@
-import java.awt.Color;
+import java.awt.*;
 import acm.util.*;
 import acm.graphics.*;
 import acm.program.*;
-import acm.program.GraphicsProgram;
 
 
 public class BouncingBalls extends GraphicsProgram {
 	public void run () {
-		int pauseTime = 20;
-		GRect rect = new GRect(100,100,100,100);
-		rect.setColor(Color.RED);
-		rect.setFilled(true);
-		add (rect);
+		for (int i=0;i<10;i++) {
+			GOval GOval = null;
+			GOval circle = GOval;
+			circle.setColor(rgen.nextColor());
+			int radious = setRandomRadius();
 
-		for (int i=0;i<100;i++) {
-			pause(pauseTime);
-			rect.setVisible(false);
-			pause(pauseTime);
-			rect.setVisible(true);
+//			setRandomPosition();
+//			placeOnMap();
 		}
 	}
+	
+	private Object createCircle() {
+
+		return circle;
+	}
+	
+	private int setRandomRadius () {
+		int a = rgen.nextInt(5,50);
+		println(a);
+		return a;
+	}
+	
+	private RandomGenerator rgen = new RandomGenerator();
 }
