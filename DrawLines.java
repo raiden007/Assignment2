@@ -8,12 +8,15 @@
 import java.awt.event.*;
 import acm.graphics.*;
 import acm.program.*;
+
 /** This class allows users to drag rectangles on the canvas */
 public class DrawLines extends GraphicsProgram {
+	
 /** Runs the program */
    public void run() {
       addMouseListeners();
 }
+   
 /** Called on mouse press to record the starting coordinates */
    public void mousePressed(MouseEvent e) {
       startX = e.getX();
@@ -22,6 +25,7 @@ public class DrawLines extends GraphicsProgram {
       currentRect.setFilled(true);
       add(currentRect);
    }
+   
 /** Called on mouse drag to reshape the current rectangle */
    public void mouseDragged(MouseEvent e) {
       double x = Math.min(e.getX(), startX);
@@ -30,11 +34,10 @@ public class DrawLines extends GraphicsProgram {
       double height = Math.abs(e.getY() - startY);
       currentRect.setBounds(x, y, width, height);
 }
+   
 /* Private state */
    private GRect currentRect;
    private double startX;
    private double startY;
-/* The current rectangle         */
-/* The initial mouse X position  */
-/* The initial mouse Y position  */
+
 }
