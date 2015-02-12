@@ -30,11 +30,11 @@ public class DrawLines extends GraphicsProgram {
    
 /** Called on mouse drag to reshape the current rectangle */
    public void mouseDragged(MouseEvent e) {
-      double x = Math.min(e.getX(), startX);
-      double y = Math.min(e.getY(), startY);
-      double width = Math.abs(e.getX() - startX);
-      double height = Math.abs(e.getY() - startY);
-      currentRect.setBounds(x, y, width, height);
+//      double x = Math.min(e.getX(), startX);
+//      double y = Math.min(e.getY(), startY);
+//      double width = Math.abs(e.getX() - startX);
+//      double height = Math.abs(e.getY() - startY);
+//      currentRect.setBounds(x, y, width, height);
 }
    
 /* Private state */
