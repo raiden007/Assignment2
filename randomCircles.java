@@ -29,7 +29,7 @@ public class randomCircles extends GraphicsProgram {
 	}
 	
 	private int setRandomPosition() {
-		int a = rgen.nextInt(getWidth(),(getWidth());
+		int a = rgen.nextInt(getWidth(),getWidth());
 		return a;
 	}
 	
