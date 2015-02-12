@@ -34,7 +34,7 @@ public class DrawLines extends GraphicsProgram {
       double y = Math.min(e.getY(), startY);
       double width = Math.abs(e.getX() - startX);
       double height = Math.abs(e.getY() - startY);
-      currentLine.setEndPoint(100,100);
+      currentLine.setEndPoint(x,y);
 }
    
 /* Private state */
