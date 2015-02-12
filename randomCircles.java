@@ -13,11 +13,11 @@ public class randomCircles extends GraphicsProgram {
 			int radious = setRandomRadius();
 //			println(radious);
 			int xPosition = setRandomHeightPosition();
-//			int yPosition = setRandomPosition();
-			println(getWidth());
-			println(getHeight());
+			int yPosition = setRandomWidthPosition();
+//			println(getWidth());
+//			println(getHeight());
 			println(xPosition);
-//			println(yPosition);
+			println(yPosition);
 //			placeOnMap();
 		}
 	}
@@ -30,6 +30,11 @@ public class randomCircles extends GraphicsProgram {
 	
 	private int setRandomHeightPosition() {
 		int a = rgen.nextInt(0,getHeight());
+		return a;
+	}
+	
+	private int setRandomWidthPosition() {
+		int a = rgen.nextInt(0,getWidth());
 		return a;
 	}
 	
