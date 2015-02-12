@@ -7,7 +7,7 @@ import acm.program.GraphicsProgram;
 
 public class graphics extends GraphicsProgram {
 	public void run () {
-		int pauseTime = 200;
+		int pauseTime = 20;
 		GRect rect = new GRect(100,100,100,100);
 		rect.setColor(Color.RED);
 		rect.setFilled(true);
