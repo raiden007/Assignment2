@@ -6,7 +6,7 @@ import acm.program.*;
 
 public class randomCircles extends GraphicsProgram {
 	public void run () {
-//		for (int i=0;i<10;i++) {
+		for (int i=0;i<10;i++) {
 			int radious = setRandomRadius();
 			int xPosition = setRandomWidthPosition();
 			int yPosition = setRandomHeightPosition();
@@ -19,7 +19,7 @@ public class randomCircles extends GraphicsProgram {
 			println(yPosition);
 			println(radious);
 			add (circle);
-//		}
+		}
 	}
 	
 	
