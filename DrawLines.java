@@ -21,7 +21,7 @@ public class DrawLines extends GraphicsProgram {
    public void mousePressed(MouseEvent e) {
       startX = e.getX();
       startY = e.getY();
-      currentLine = new GLine (startX,startY, startX, startY);
+      currentLine = new GLine (startX,startY, startX, startX);
 //     currentRect = new GRect(startX, startY, 0, 0);
 //     currentRect.setFilled(true);
 //     add(currentRect);
