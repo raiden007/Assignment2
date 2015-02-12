@@ -7,13 +7,13 @@ import acm.program.*;
 public class randomCircles extends GraphicsProgram {
 	public void run () {
 //		for (int i=0;i<10;i++) {
-			circle.setColor(rgen.nextColor());
 			int radious = setRandomRadius();
 			int xPosition = setRandomHeightPosition();
 			int yPosition = setRandomWidthPosition();
 //			println(getWidth());
 //			println(getHeight());
 			GOval circle = new GOval (xPosition,yPosition,radious,radious);
+			circle.setColor(rgen.nextColor());
 			println(xPosition);
 			println(yPosition);
 			println(radious);
