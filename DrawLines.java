@@ -21,9 +21,11 @@ public class DrawLines extends GraphicsProgram {
    public void mousePressed(MouseEvent e) {
       startX = e.getX();
       startY = e.getY();
-      currentRect = new GRect(startX, startY, 0, 0);
-      currentRect.setFilled(true);
-      add(currentRect);
+      currentLine = new GLine (startX,startY, startX, startY);
+//     currentRect = new GRect(startX, startY, 0, 0);
+//     currentRect.setFilled(true);
+//     add(currentRect);
+      add(currentLine);
    }
    
 /** Called on mouse drag to reshape the current rectangle */
@@ -37,6 +39,7 @@ public class DrawLines extends GraphicsProgram {
    
 /* Private state */
    private GRect currentRect;
+   private GLine currentLine;
    private double startX;
    private double startY;
 
