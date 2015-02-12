@@ -7,8 +7,6 @@ import acm.program.*;
 public class randomCircles extends GraphicsProgram {
 	public void run () {
 //		for (int i=0;i<10;i++) {
-			GOval GOval = null;
-
 //			circle.setColor(rgen.nextColor());
 			int radious = setRandomRadius();
 //			println(radious);
