@@ -8,8 +8,8 @@ public class randomCircles extends GraphicsProgram {
 	public void run () {
 //		for (int i=0;i<10;i++) {
 			int radious = setRandomRadius();
-			int xPosition = setRandomHeightPosition();
-			int yPosition = setRandomWidthPosition();
+			int xPosition = setRandomWidthPosition();
+			int yPosition = setRandomHeightPosition();
 //			println(getWidth());
 //			println(getHeight());
 			GOval circle = new GOval (xPosition,yPosition,radious,radious);
@@ -27,12 +27,12 @@ public class randomCircles extends GraphicsProgram {
 		return a;
 	}
 	
-	private int setRandomHeightPosition() {
+	private int setRandomWidthPosition() {
 		int a = rgen.nextInt(0,getWidth());
 		return a;
 	}
 	
-	private int setRandomWidthPosition() {
+	private int setRandomHeightPosition() {
 		int a = rgen.nextInt(0,getHeight());
 		return a;
 	}
