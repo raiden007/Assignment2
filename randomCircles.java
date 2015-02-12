@@ -18,9 +18,9 @@ public class randomCircles extends GraphicsProgram {
 //			println(getHeight());
 			println(xPosition);
 			println(yPosition);
-			GOval circle = new GOval (radious,xPosition,yPosition,radious);
+//			GOval circle = new GOval (xPosition,yPosition,radious);
 //			add (circle);
-			add(new GOval(100,10,10,10));
+			add(new GOval(100,100,10,10));
 //		}
 	}
 	
