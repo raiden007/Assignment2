@@ -6,7 +6,8 @@ import acm.program.GraphicsProgram;
 
 public class graphics extends GraphicsProgram {
 	public void run () {
-		GObject rect = new GRect(0,0,100,100);
+		GObject rect = new GRect(100,100,100,100);
+		rect.setFilled() = true;
 		add (rect);
 	}
 }
