@@ -14,6 +14,7 @@ public class randomCircles extends GraphicsProgram {
 //			println(getHeight());
 			GOval circle = new GOval (xPosition,yPosition,radious,radious);
 			circle.setColor(rgen.nextColor());
+			circle.setFilled(true);
 			println(xPosition);
 			println(yPosition);
 			println(radious);
