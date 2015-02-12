@@ -6,9 +6,9 @@ import acm.program.*;
 
 public class randomCircles extends GraphicsProgram {
 	public void run () {
-		for (int i=0;i<10;i++) {
+//		for (int i=0;i<10;i++) {
 			GOval GOval = null;
-			GOval circle = GOval;
+
 //			circle.setColor(rgen.nextColor());
 			int radious = setRandomRadius();
 //			println(radious);
@@ -18,8 +18,9 @@ public class randomCircles extends GraphicsProgram {
 //			println(getHeight());
 			println(xPosition);
 			println(yPosition);
-//			placeOnMap();
-		}
+			GOval circle = new GOval (radious,xPosition,yPosition,0);
+			add (circle);
+//		}
 	}
 	
 	
