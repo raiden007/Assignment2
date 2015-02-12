@@ -9,14 +9,15 @@ public class randomCircles extends GraphicsProgram {
 //		for (int i=0;i<10;i++) {
 //			circle.setColor(rgen.nextColor());
 			int radious = setRandomRadius();
-//			println(radious);
 			int xPosition = setRandomHeightPosition();
 			int yPosition = setRandomWidthPosition();
 //			println(getWidth());
 //			println(getHeight());
+
+			GOval circle = new GOval (xPosition,yPosition,radious,radious);
 			println(xPosition);
 			println(yPosition);
-			GOval circle = new GOval (xPosition,yPosition,radious,radious);
+			println(radious);
 			add (circle);
 //		}
 	}
