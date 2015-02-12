@@ -9,7 +9,7 @@ public class randomCircles extends GraphicsProgram {
 		for (int i=0;i<10;i++) {
 			GOval GOval = null;
 			GOval circle = GOval;
-			circle.setColor(rgen.nextColor());
+//			circle.setColor(rgen.nextColor());
 			int radious = setRandomRadius();
 			println(radious);
 
