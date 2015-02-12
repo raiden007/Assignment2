@@ -5,7 +5,7 @@ import acm.program.*;
 import acm.program.GraphicsProgram;
 
 
-public class graphics extends GraphicsProgram {
+public class BouncingBalls extends GraphicsProgram {
 	public void run () {
 		int pauseTime = 20;
 		GRect rect = new GRect(100,100,100,100);
