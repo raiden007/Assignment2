@@ -22,25 +22,17 @@ public class DrawLines extends GraphicsProgram {
       startX = e.getX();
       startY = e.getY();
       currentLine = new GLine (startX,startY, startX, startY);
-//     currentRect = new GRect(startX, startY, 0, 0);
-//     currentRect.setFilled(true);
-//     add(currentRect);
       add(currentLine);
    }
    
 /** Called on mouse drag to reshape the current rectangle */
    public void mouseDragged(MouseEvent e) {
-      double x = Math.min(e.getX(), startX);
-      double y = Math.min(e.getY(), startY);
-      double width = Math.abs(e.getX() - startX);
-      double height = Math.abs(e.getY() - startY);
       double endX = e.getX();
       double endY = e.getY();
       currentLine.setEndPoint(endX,endY);
 }
    
 /* Private state */
-   private GRect currentRect;
    private GLine currentLine;
    private double startX;
    private double startY;
