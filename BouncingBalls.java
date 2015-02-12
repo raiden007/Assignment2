@@ -17,10 +17,6 @@ public class BouncingBalls extends GraphicsProgram {
 		}
 	}
 	
-	private Object createCircle() {
-
-		return circle;
-	}
 	
 	private int setRandomRadius () {
 		int a = rgen.nextInt(5,50);
