@@ -11,9 +11,13 @@ public class randomCircles extends GraphicsProgram {
 			GOval circle = GOval;
 //			circle.setColor(rgen.nextColor());
 			int radious = setRandomRadius();
-			println(radious);
-
-//			setRandomPosition();
+//			println(radious);
+			int xPosition = setRandomPosition();
+			int yPosition = setRandomPosition();
+			println(getWidth());
+			println(getHeight());
+//			println(xPosition);
+//			println(yPosition);
 //			placeOnMap();
 		}
 	}
@@ -21,6 +25,11 @@ public class randomCircles extends GraphicsProgram {
 	
 	private int setRandomRadius () {
 		int a = rgen.nextInt(5,50);
+		return a;
+	}
+	
+	private int setRandomPosition() {
+		int a = rgen.nextInt(getWidth(),(getWidth());
 		return a;
 	}
 	
