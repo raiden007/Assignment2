@@ -28,12 +28,12 @@ public class randomCircles extends GraphicsProgram {
 	}
 	
 	private int setRandomHeightPosition() {
-		int a = rgen.nextInt(0,getHeight());
+		int a = rgen.nextInt(0,getWidth());
 		return a;
 	}
 	
 	private int setRandomWidthPosition() {
-		int a = rgen.nextInt(0,getWidth());
+		int a = rgen.nextInt(0,getHeight());
 		return a;
 	}
 	
