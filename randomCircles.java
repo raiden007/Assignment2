@@ -24,7 +24,7 @@ public class randomCircles extends GraphicsProgram {
 	
 	
 	private int setRandomRadius () {
-		int a = rgen.nextInt(5,50);
+		int a = rgen.nextInt(5,200);
 		return a;
 	}
 	
