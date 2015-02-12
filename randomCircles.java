@@ -20,7 +20,7 @@ public class randomCircles extends GraphicsProgram {
 			println(yPosition);
 			GOval circle = new GOval (radious,xPosition,yPosition,radious);
 //			add (circle);
-			add(new GOval(10,10,10,10));
+			add(new GOval(100,10,10,10));
 //		}
 	}
 	
